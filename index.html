@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>My First Website</title>
+</head>
+
+<body>
+
+    <!-- Simple Menu -->
+    <table border="1" width="100%">
+        <tr>
+            <td align="center"><a href="index.html">Home</a></td>
+            <td align="center"><a href="login.html">Login</a></td>
+            <td align="center"><a href="#">About</a></td>
+        </tr>
+    </table>
+
+    <br>
+
+    <!-- Page Title -->
+    <h1 align="center">Welcome To My Website</h1>
+
+    <br>
+
+    <!-- Two Sections -->
+    <table border="1" width="100%">
+        <tr>
+            <!-- First Section -->
+            <td width="50%" align="center">
+                <h2>Section 1</h2>
+                <p>This is the first section of the page.</p>
+                <img src="https://via.placeholder.com/200" width="200">
+            </td>
+
+            <!-- Second Section -->
+            <td width="50%" align="center">
+                <h2>Section 2</h2>
+                <p>This is the second section of the page.</p>
+                <img src="https://via.placeholder.com/200" width="200">
+            </td>
+        </tr>
+    </table>
+
+    <br><br>
+
+    <!-- Link to Login Page -->
+    <center>
+        <a href="login.html">
+            <button>Go To Login Page</button>
+        </a>
+    </center>
+
+</body>
+</html>
