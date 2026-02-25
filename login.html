@@ -11,7 +11,8 @@
     <br>
 
     <center>
-        <form onsubmit="showData(); return false;">
+
+        <form id="loginForm">
 
             <label>Username:</label><br>
             <input type="text" id="username"><br><br>
@@ -19,79 +20,27 @@
             <label>Password:</label><br>
             <input type="password" id="password"><br><br>
 
-            <input type="submit" value="Login">
+            <input type="button" value="Login" onclick="showData()">
 
         </form>
 
         <br><br>
 
-        <!-- مكان عرض البيانات -->
         <p id="result"></p>
 
         <br>
         <a href="index1.html">Back to Home</a>
+
     </center>
 
     <script>
         function showData() {
 
-            // Get values from inputs
             var user = document.getElementById("username").value;
             var pass = document.getElementById("password").value;
 
-            // Print them on the page
             document.getElementById("result").innerHTML =
                 "Username: " + user + "<br>Password: " + pass;
-
-        }
-    </script>
-
-</body>
-</html><!DOCTYPE html>
-<html>
-<head>
-    <title>Login Page</title>
-</head>
-
-<body>
-
-    <h1 align="center">Login Page</h1>
-
-    <br>
-
-    <center>
-        <form onsubmit="showData(); return false;">
-
-            <label>Username:</label><br>
-            <input type="text" id="username"><br><br>
-
-            <label>Password:</label><br>
-            <input type="password" id="password"><br><br>
-
-            <input type="submit" value="Login">
-
-        </form>
-
-        <br><br>
-
-        <!-- مكان عرض البيانات -->
-        <p id="result"></p>
-
-        <br>
-        <a href="index.html">Back to Home</a>
-    </center>
-
-    <script>
-        function showData() {
-
-            // Get values from inputs
-            var user = document.getElementById("username").value;
-            var pass = document.getElementById("password").value;
-
-            // Print them on the page
-            document.getElementById("result").innerHTML =
-                "Username: " + user + "<br>Password: " + pass;
-
         }
     </script>
 
